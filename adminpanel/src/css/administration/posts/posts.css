@@ -1,0 +1,170 @@
+.posts .searchPost h2{
+    margin-bottom: 25px;
+    font-size: 1.75em;
+}
+
+.posts .deletePopup {
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.posts .deleteConfirmation {
+    position: relative;
+    width: 50%;
+    top: 250px;
+    left: 50%;
+    transform: translatey(-50%);
+    transform: translatex(-50%);
+}
+.posts .deleteConfirmation h1{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.posts .deleteConfirmation .cancelButton {
+    margin-left: 25px;
+    float: left;
+}
+.posts .deleteConfirmation .deleteButton{
+    margin-right: 25px;
+    float: right;
+}
+
+.posts .searchPost form{
+    margin-bottom: 25px;
+}
+
+.posts .searchPost p{
+    display: block;
+    margin: 0px 0px 5px 0px
+}
+.posts .searchPost select{
+    display: inline-block;
+    width: 20%;
+    margin: 0px 0px 20px 0px;
+}
+.posts .searchPost input{
+    display: inline-block;
+    width: 40%;
+}
+.posts .searchPost button{
+    display: block;
+    float: left;    
+    margin: 25px 0px 0px 32%;
+}
+.posts .searchPost .backButton{
+    float: left;    
+    margin: 25px 0px 0px 0%;
+}
+
+
+.posts .searchResults .resultContainer:hover {
+        -webkit-box-shadow: 0px 0px 15px -6px #000000; 
+        box-shadow: 0px 0px 15px -6px #000000;
+        cursor: pointer;
+        transform: scale(1.1);
+        z-index: 1;
+}
+.posts .searchResults .resultContainer {
+    width: 45%;
+    float: left;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 10px;
+    border: 1px solid rgb(201, 201, 201);
+    margin: 0px 0px 3% 2.5%;
+    background-color: white;
+}
+.posts .searchResults .resultContainer .postTitle {
+    font-size: 1.5em;
+    margin: 0px 0.7em 0px;
+    font-weight: 600;
+}
+.posts .searchResults .resultContainer .postHeader {
+    margin: 0px 1em;
+    color: gray;
+    font-size: 1em;
+}
+.posts .searchResults .resultContainer .postBody {
+    margin: 0px 1.25em 1em;
+    font-size: 1.1em;
+}
+.posts .searchResults .resultContainer .containsImage {
+    margin-left: 1em;
+}
+
+
+.posts .searchResults .resultContainer img {
+    height: 100px;
+    float: left;
+    padding: 0px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.posts hr {
+    margin-bottom: 25px;
+}
+
+.posts .selectedPost .postInfo {
+    height: auto;
+    margin-bottom: 20px; 
+}
+.posts .selectedPost .postInfo .iconContainer {
+    width: 200px;
+    border: 1px solid rgb(209, 205, 205);
+    border-radius: 10px;
+    float: left;
+    margin-right: 25px;
+}
+.posts .selectedPost .postInfo .iconContainer img {
+    border-radius: 10px;
+    width: 100%;
+}
+.posts .selectedPost .postInfo b{
+    font-size: 1.25em;
+}
+.posts .selectedPost .postInfo p{
+    font-size: 1em;
+}
+
+
+.posts .selectedPost .postInfo .postTitle {
+    font-size: 1.75em;
+    margin: 0px 0.75em;
+    margin-bottom: -0.1em;
+    font-weight: 600;
+    
+    
+}
+
+.posts .selectedPost .postInfo .postHeader {
+    margin: 0px 1.5em;
+    color: gray;
+    font-size: 1em;
+
+}
+
+.posts .selectedPost .postInfo .postBody {
+    margin: 0.5em 2em 2em 2em;
+    font-size: 1.2em;
+}
+
+.posts .selectedPost .postInfo .attachedImage {
+    background-color: rgb(180, 180, 180);
+    border: 1px solid rgb(199, 199, 199);
+}
+.posts .selectedPost .postInfo .attachedImage img{
+    max-width:90%;
+    max-height:90%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}

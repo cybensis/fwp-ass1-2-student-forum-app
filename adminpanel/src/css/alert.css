@@ -1,0 +1,33 @@
+.alertContainer {
+    margin-bottom: 25px;
+}
+.alertBody {
+    background-color: rgb(35, 151, 246);
+    height: 60px;
+}
+/* Blue    #2196F3 */
+/* Red     #f44336 */
+/* Yellow  #ff9800 */
+/* Green   #04AA6D */
+
+.alertMessage {
+    margin-left: 25px;
+    color: white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 95%;
+}
+.closeBtn {
+    margin: 5px 10px 0px 0px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closeBtn:hover {
+    color: black;
+  }

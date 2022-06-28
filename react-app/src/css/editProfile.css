@@ -1,0 +1,130 @@
+.editProfile {
+    position: relative;
+    width: 35vw;
+    height: 23vw;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 2vw 0px;
+    padding: 1vw;
+    border-radius: 5px;
+    border: 1px solid rgb(216, 216, 216);
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-box-shadow: 5px 5px 15px -5px #000000; 
+    box-shadow: 5px 5px 15px -5px #000000;
+}
+
+.editProfile h1 {
+    margin: 0vw 0vw 1vw 1vw;
+    color: rgb(32, 120, 235);
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 1.7vw;
+
+}
+
+.editProfile .userIcon .uploadImage {
+    color: transparent;
+    margin-left: 2.6vw;
+    font-size: 0.8vw;
+    padding: 0px;
+}
+
+.editProfile .userIcon .iconImage {
+    width: 95%;
+    height: 75%;
+    position: relative;
+    left: 50%;
+    margin-bottom: 0.3vw;
+    transform: translateX(-50%);
+}
+.editProfile .userIcon .clearInput { 
+    display: none;
+    border-radius: 3px;
+    border: 1px solid rgb(97, 97, 97);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.editProfile .userIcon {
+    /* background-color: rgb(241, 241, 241);
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 10px; */
+    padding: 1%;
+    position: relative;
+    width: 30%;
+    height: 12.5vw;
+    display: inline-block;
+    margin: 0% 3% 0% 1%;
+
+}
+.editProfile .userIcon p {
+    margin-top: 0.5vw;
+    font-size: 0.8vw;
+    color: rgb(177, 10, 10);
+
+}
+
+.editProfile .userIcon:hover {
+    background-color: rgb(216, 216, 216);
+    cursor: pointer;
+}
+
+.editProfile .userIcon img {
+    border-radius: 10px;
+    width: 100%;
+    vertical-align: top;
+    border: 1px solid rgb(201, 201, 201);
+}
+
+.editProfile .inputFields .form-group {
+    display: inline-block;
+    width: 48%;
+    margin-bottom: 5%;
+}
+.editProfile .inputFields .form-group p {
+    margin: 0px;
+}
+.editProfile .inputFields .email {
+    width: 100%;
+}
+.editProfile .inputFields .form-group .form-control {
+    width: 100%;
+} 
+.editProfile .inputFields .lastName {
+    margin-left: 4%;
+}
+.editProfile .inputFields .username {
+    margin-bottom: 2%;
+}
+.editProfile .inputFields .password {
+    margin: 0px 0px 2% 4%;
+}
+
+.editProfile .inputFields {
+    display: inline-block;
+    vertical-align: top;
+    width: 65%;
+}
+
+.editProfile .inputFields input {
+    font-size: 0.8vw;
+    padding: 0.5vw;
+    color: rgb(63, 63, 63);
+}
+.editProfile .inputFields button {
+    position: absolute;
+    right: 1.2vw;
+    bottom: 1vw;
+    font-size: 0.9vw;
+    padding: 0.3vw;
+    clear: both;
+}
+
+
+.editProfile .inputFields .response {
+    font-size: 0.9vw;
+    color: rgb(177, 10, 10);
+
+}

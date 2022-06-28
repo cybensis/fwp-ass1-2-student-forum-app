@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* Modify CSS to add a min height and width so it doesn't get so small on phone sizes */
+.register {
+    margin-top: 2vw;
+    position: relative;
+    width: 25vw;
+    height: 22vw;
+    padding: 1vw;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 15px -5px #000000; 
+    box-shadow: 0px 0px 15px -5px #000000;
+}
+.register h1 {
+    border-bottom: 1px solid rgb(201, 201, 201);
+    font-size: 1.7vw;
+    position: relative;
+    padding-bottom: 0.2vw;
+    margin-bottom: 4%;
+    color: rgb(32, 120, 235);
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+
+}
+
+.register input {
+    width: 100%;
+    font-size: 0.8vw;
+    padding: 0.2vw;
+    margin: 0px;
+}
+.register .email {
+    margin-bottom: 4%;
+}
+.register .firstName {
+    width: 48%;
+    display: inline-block;
+}
+.register .lastName {
+    width: 48%;
+    display: inline-block;
+    margin: 0px 0px 4% 4%;
+}
+.register .username {
+    width: 48%;
+    display: inline-block;
+}
+.register .password {
+    width: 48%;
+    display: inline-block;
+    margin: 0px 0px 2% 4%;
+}
+
+.register button{
+
+    width: 28%;
+    font-size: 0.8vw;
+    padding: 0.3vw;
+    position:absolute;
+    bottom: 0.7vw;
+    right:0.7vw;
+}
+
+.register p {
+    font-size: 0.8vw;
+    margin: 0px;
+}
+
+.register .response {
+    color: rgb(209, 5, 5);
+    font-size: 0.9vw;
+    width: 100%;
+}

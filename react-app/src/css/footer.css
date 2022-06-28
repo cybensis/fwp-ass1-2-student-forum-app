@@ -1,0 +1,44 @@
+.footer {
+  height: 5vw;
+  width: 100vw;
+  background-color: rgb(32,35,42);
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "logo searchBar navigation";
+  margin: 0px;
+}
+
+.footer .logo {
+  grid-area: logo;
+  position: relative;
+  margin: 0px;
+  padding-left: 2vw;
+  color: rgb(201, 156, 8);
+  justify-self: stretch; 
+  align-self: center; 
+}
+.footer .searchContainer {
+  grid-area: searchBar;
+  justify-self: center; 
+  align-self: center; 
+}
+.footer .searchBar {
+
+  position: relative;
+  height: 2vw;
+  width: 20vw;
+  margin: 0vw;
+  background-color: azure;
+}
+.footer .searchBar p {
+  margin: 0px;
+}
+
+.footer .navigation {
+  grid-area: navigation;
+  background-color: rgb(49, 49, 49);
+  justify-self: center; 
+  align-self: center; 
+}

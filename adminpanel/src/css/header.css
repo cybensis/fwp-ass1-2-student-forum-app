@@ -1,0 +1,106 @@
+.header {
+  font-family: 'Raleway', sans-serif;
+  max-height: 70px;
+  height: 5vw;
+  width: 100vw;
+  background-color: rgb(32,35,42);
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "logo searchBar navigation";
+    -webkit-box-shadow: 0px 1px 8px -1px #000000; 
+    box-shadow: 0px 1px 8px -1px #000000;
+  
+}
+
+.header .logo {
+  grid-area: logo;
+  position: relative;
+  margin: 0px;
+  padding-left: 2vw;
+  color: rgb(32, 120, 235);
+  align-self: center; 
+  height: 100%;
+}
+
+.header .searchContainer {
+  grid-area: searchBar;
+  justify-self: center; 
+  align-self: center; 
+}
+/* .header .searchBar {
+
+  position: relative;
+  height: 2vw;
+  max-height: 34px;
+  width: 20vw;
+  max-width: 370px;
+  margin: 0vw;
+  background-color: azure;
+}
+.header .searchBar {
+  margin: 0px;
+  font-size: 1vw;
+} */
+
+@media screen and (min-width: 1920px) {
+  .header .searchBar {
+     font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header .searchBar {
+     font-size: 9px;
+  }
+}
+
+.header .navigation {
+  grid-area: navigation;
+  align-self: end; 
+  text-align: right;
+}
+
+.header .navContents p, .navLink {
+  display: inline;
+  font-size: 1vw;
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1920px) {
+  .header .navContents p, a {
+     font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .header .navContents p, a {
+     font-size: 9px;
+  }
+}
+
+/* <Link> in react is just <a> */
+.header .navContents a {
+  color: white;
+  text-decoration: none;
+}
+
+.header .navContents div {
+  position: relative;
+  display: inline-block;
+  color: rgb(204, 204, 204);
+  padding: 1.1% 2.5%;
+  transition: all .2s ease-in;
+  border-radius: 2px;
+}
+.header .navContents div:hover {
+  background-color: rgb(15, 18, 24);
+  color: rgb(255, 255, 255);
+}
+
+.header .navContents div:last-of-type {
+  margin-right: 4%;
+  
+}

@@ -1,0 +1,78 @@
+.editUser {
+    position: relative;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.editUser h1 {
+    margin-bottom: 15px;
+
+}
+.editUser .userIcon {
+    padding: 1%;
+    position: relative;
+    width: 30%;
+    height: 150px;
+    display: inline-block;
+    margin: 0% 3% 0% 1%;
+}
+
+.editUser .userIcon .iconImage {
+    width: 100%;
+    border-radius: 10px;
+    vertical-align: top;
+    border: 1px solid rgb(201, 201, 201);
+}
+
+
+.editUser .inputFields .form-group {
+    display: inline-block;
+    width: 48%;
+    margin-bottom: 5%;
+}
+.editUser .inputFields .form-group p {
+    margin: 0px;
+}
+.editUser .inputFields .email {
+    width: 100%;
+}
+.editUser .inputFields .form-group .form-control {
+    width: 100%;
+} 
+.editUser .inputFields .lastName {
+    margin-left: 4%;
+}
+.editUser .inputFields .username {
+    margin-bottom: 2%;
+}
+.editUser .inputFields .password {
+    margin: 0px 0px 2% 4%;
+}
+
+.editUser .inputFields {
+    display: inline-block;
+    vertical-align: top;
+    width: 65%;
+}
+
+.editUser .inputFields input {
+    font-size: 1em;
+    padding: 0.5em;
+    color: rgb(63, 63, 63);
+}
+.editUser button {
+    float: right;
+    font-size: 1em;
+    padding: 0.5em;
+    margin-right: 1%;
+    /* clear: both; */
+}
+
+
+.editUser .inputFields .response {
+    font-size: 0.9em;
+    color: rgb(177, 10, 10);
+}

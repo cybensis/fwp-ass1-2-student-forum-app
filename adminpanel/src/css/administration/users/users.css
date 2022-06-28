@@ -1,0 +1,129 @@
+.users .searchUser h2{
+    margin-bottom: 25px;
+    font-size: 1.75em;
+}
+
+.users .deletePopup {
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.users .deleteConfirmation {
+    position: relative;
+    width: 50%;
+    top: 250px;
+    left: 50%;
+    transform: translatey(-50%);
+    transform: translatex(-50%);
+}
+.users .deleteConfirmation h1{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.users .deleteConfirmation .cancelButton {
+    margin-left: 25px;
+    float: left;
+}
+.users .deleteConfirmation .deleteButton{
+    margin-right: 25px;
+    float: right;
+}
+
+.users .searchUser form{
+    margin-bottom: 25px;
+}
+
+.users .searchUser p{
+    display: block;
+    margin: 0px 0px 5px 0px
+}
+.users .searchUser select{
+    display: inline-block;
+    width: 20%;
+    margin: 0px 0px 20px 0px;
+}
+.users .searchUser input{
+    display: inline-block;
+    width: 40%;
+}
+.users .searchUser button{
+    display: block;
+    float: left;    
+    margin: 25px 0px 0px 32%;
+}
+.users .searchUser .backButton{
+    float: left;    
+    margin: 25px 0px 0px 0%;
+}
+
+
+.users .searchResults .resultContainer:hover {
+        -webkit-box-shadow: 0px 0px 15px -6px #000000; 
+        box-shadow: 0px 0px 15px -6px #000000;
+        cursor: pointer;
+        transform: scale(1.1);
+        z-index: 1;
+}
+.users .searchResults .resultContainer {
+    width: 48%;
+    float: left;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 10px;
+    border: 1px solid rgb(201, 201, 201);
+    margin: 0px 2% 3% 0px;
+    background-color: white;
+}
+.users .searchResults .resultContainer p:first-of-type {
+    margin-top: 5px;
+}
+.users .searchResults .resultContainer p {
+    /* vertical-align: middle; */
+    display: block;
+    width: 100%;
+    position: relative;
+    white-space: initial;
+    word-wrap: break-word
+}
+
+.users .searchResults .resultContainer img {
+    height: 100px;
+    float: left;
+    padding: 0px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.users hr {
+    margin-bottom: 25px;
+}
+
+.users .selectedUser .userInfo {
+    height: 200px;
+    margin-bottom: 20px; 
+}
+.users .selectedUser .userInfo .iconContainer {
+    width: 200px;
+    border: 1px solid rgb(209, 205, 205);
+    border-radius: 10px;
+    float: left;
+    margin-right: 25px;
+}
+.users .selectedUser .userInfo .iconContainer img {
+    border-radius: 10px;
+    width: 100%;
+}
+.users .selectedUser .userInfo b{
+    font-size: 1.25em;
+}
+.users .selectedUser .userInfo p{
+    font-size: 1em;
+}
