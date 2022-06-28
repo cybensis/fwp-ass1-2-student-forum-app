@@ -1,0 +1,2 @@
+# fwp-ass1-2-student-forum-app
+A full stack web app comprised of React, Node, Express + Sequelize &amp; Cloud MySQL made for my further web programming class assignments 1 and 2 in 2021 semester 2. This contains a web app for a fake student social networking forum, like reddit for students. Additionally, there is another web app for an admin panel to interact with users accounts and posts, that uses GraphQL for data fetching.  
